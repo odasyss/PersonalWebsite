@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
-import project2 from "../../public/images/projects/nft-collection-website-cover-image.jpg";
+import project2 from "../../public/images/projects/Star-Wars.png";
 import project3 from "../../public/images/projects/fashion-studio-website.jpg";
 import project4 from "../../public/images/projects/portfolio-cover-image.jpg";
 import project5 from "../../public/images/projects/agency-website-cover-image.jpg";
@@ -172,20 +172,21 @@ const projects = () => {
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website Template"
-                title="NFT collection Website"
+                type="CLI Application"
+                title="Star Wars CLI Aplication"
                 img={project2}
-                link="https://devdreaming.com/videos/create-nft-collection-website-reactjs"
-                github="https://github.com/codebucks27/The-Weirdos-NFT-Website-Starter-Code"
+                link="https://github.com/odasyss/"
+                github="https://github.com/odasyss/CLI-API"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                type="Website"
-                title="Fashion Studio Website"
+                type="Application"
+                title="Task Manager App,
+                      -Based on Jira"
                 img={project3}
-                link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
+                link="https://github.com/odasyss/"//vercel link
+                github="https://github.com/odasyss/taskManager"
               />
             </div>
 
@@ -193,14 +194,14 @@ const projects = () => {
               <FeaturedProject
                 type="Portfolio Website"
                 title="React Portfolio Website"
-                summary="A professional portfolio website using React JS, Framer-motion, and Styled-components. It has smooth page transitions, cool background effects, unique design and it is mobile responsive."
+                summary="A professional portfolio website using React JS, Framer-motion, and it is mobile responsive."
                 img={project4}
-                link="https://devdreaming.com/videos/build-stunning-portfolio-website-react-js-framer-motion"
-                github="https://github.com/codebucks27/react-portfolio-final"
+                link="https://odasyss.com"
+                github="https://github.com/odasyss/PersonalWebsite"
               />
             </div>
 
-            <div className="col-span-6 sm:col-span-12">
+            {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Website Template"
                 img={project5}
@@ -208,8 +209,8 @@ const projects = () => {
                 link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
                 github="https://github.com/codebucks27/wibe-studio"
               />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
+            </div> */}
+            {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Blog Website"
                 img={project6}
@@ -217,7 +218,7 @@ const projects = () => {
                 link="https://devdreaming.com"
                 github="https://github.com/codebucks27"
               />
-            </div>
+            </div> */}
           </div>
         </Layout>
       </main>

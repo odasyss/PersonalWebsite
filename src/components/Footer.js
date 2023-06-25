@@ -15,17 +15,17 @@ const Footer = () => {
           Build With <span className="text-primary dark:text-primaryDark text-2xl px-1">&#9825;</span>
           by&nbsp;
           <Link
-            href="https://devdreaming.com"
+            href="mailto:odasyss@gmail.com"
             className="underline
             underline-offset-2
             "
             target={"_blank"}
           >
-            CodeBucks
+            Odasys
           </Link>
         </div>
         <Link
-          href="https://devdreaming.com"
+          href="https://www.linkedin.com/in/odasys/"
           target={"_blank"}
           className="underline
             underline-offset-2

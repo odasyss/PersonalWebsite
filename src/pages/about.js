@@ -8,7 +8,7 @@ import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Head from "next/head";
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";
-import profilePic from "../../public/images/profile/developer-pic-2.jpg";
+import profilePic from "../../public/images/profile/vote.jpg";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -39,15 +39,14 @@ const about = () => {
     <>
       <Head>
       <title>Minimal Portfolio Built with Nextjs | About Page</title>
-        <meta name="description" content="Learn more about CodeBucks, a Next.js developer with a passion for 
-        creating innovative solutions. Discover tips for building a developer portfolio and insights on 
-        full-stack development, front-end development, and back-end development." />
+        <meta name="description" content="I am a self-motivated learner and developer. As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications.
+                Explore my latest projects and articles, showcasing my expertise in React.js and web development." />
       </Head>
       <TransitionEffect />
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text="Passion Fuels Purpose!"
+            text="Hardware eventually fails. Software eventually works"
             className="mb-16 !leading-tight lg:!text-7xl sm:!text-6xl xs:!text-4xl sm:mb-8"
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
@@ -56,17 +55,14 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I&apos;m CodeBucks, a web developer and UI/UX designer with a
-                passion for creating beautiful, functional, and user-centered
-                digital experiences. With 4 years of experience in the field. I
-                am always looking for new and innovative ways to bring my
-                clients&apos; visions to life.
+                Hi, I&apos;m Odasys, a web developer I am a self-motivated learner and developer. As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications.
+                Explore my latest projects and articles, showcasing my expertise in React.js and web development.
               </p>
 
               <p className="my-4 font-medium">
                 I believe that design is about more than just making things look
                 pretty – it&apos;s about solving problems and creating intuitive,
-                enjoyable experiences for users.
+                enjoyable experiences for users. I believe in the power of programming to transform and improve the lives of people around the world.
               </p>
 
               <p className="font-medium">
@@ -86,7 +82,7 @@ bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span
               <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
               <Image
                 src={profilePic}
-                alt="Codebucks"
+                alt="odasys"
                 className="w-full h-auto rounded-2xl"
                 priority
                 sizes="(max-width: 768px) 100vw,

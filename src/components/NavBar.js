@@ -3,10 +3,9 @@ import { useRouter } from "next/router";
 import React, { useState } from "react";
 import {
   TwitterIcon,
-  DribbbleIcon,
   GithubIcon,
   LinkedInIcon,
-  PinterestIcon,
+  GmailIcon,
   SunIcon,
   MoonIcon,
 } from "./Icons";
@@ -105,7 +104,7 @@ const NavBar = () => {
           <CustomLink href="/" title="Home" className="mr-4" />
           <CustomLink href="/about" title="About" className="mx-4" />
           <CustomLink href="/projects" title="Projects" className="mx-4" />
-          <CustomLink href="/articles" title="Articles" className="ml-4" />
+          <CustomLink href="/guestbook" title="GuestBook" className="ml-4" />
         </nav>
 
         <nav className="flex items-center justify-center flex-wrap">
@@ -119,7 +118,7 @@ const NavBar = () => {
             <TwitterIcon />
           </motion.a>
           <motion.a
-            href="https://twitter.com"
+            href="https://github.com/odasyss"
             target={"_blank"}
             className="w-6 mx-3"
             whileHover={{ y: -2 }}
@@ -128,7 +127,7 @@ const NavBar = () => {
             <GithubIcon />
           </motion.a>
           <motion.a
-            href="https://twitter.com"
+            href="https://www.linkedin.com/in/odasys/"
             target={"_blank"}
             className="w-6 mx-3"
             whileHover={{ y: -2 }}
@@ -137,23 +136,23 @@ const NavBar = () => {
             <LinkedInIcon />
           </motion.a>
           <motion.a
-            href="https://twitter.com"
+            href="mailto:odasyss@gmail.com"
             target={"_blank"}
             className="w-6 mx-3 bg-light rounded-full"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
           >
-            <PinterestIcon />
+            <GmailIcon />
           </motion.a>
-          <motion.a
+          {/* <motion.a
             href="https://twitter.com"
             target={"_blank"}
             className="w-6 mx-3"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
           >
-            <DribbbleIcon />
-          </motion.a>
+            
+          </motion.a> */}
 
           <button
             onClick={() => setMode(mode === "light" ? "dark" : "light")}
@@ -198,8 +197,8 @@ const NavBar = () => {
               toggle={handleClick}
             />
             <CustomMobileLink
-              href="/articles"
-              title="Articles"
+              href="/guedtbook"
+              title="GuestBook"
               className=""
               toggle={handleClick}
             />
@@ -216,7 +215,7 @@ const NavBar = () => {
               <TwitterIcon />
             </motion.a>
             <motion.a
-              href="https://twitter.com"
+              href="https://github.com/odasyss"
               target={"_blank"}
               className="w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
               whileHover={{ y: -2 }}
@@ -225,7 +224,7 @@ const NavBar = () => {
               <GithubIcon />
             </motion.a>
             <motion.a
-              href="https://twitter.com"
+              href="https://www.linkedin.com/in/odasys/"
               target={"_blank"}
               className="w-6 mx-3 sm:mx-1"
               whileHover={{ y: -2 }}
@@ -234,22 +233,22 @@ const NavBar = () => {
               <LinkedInIcon />
             </motion.a>
             <motion.a
-              href="https://twitter.com"
+              href="mailto:odasyss@gmail.com"
               target={"_blank"}
               className="w-6 mx-3 bg-light rounded-full sm:mx-1"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
             >
-              <PinterestIcon />
+              <GmailIcon />
             </motion.a>
             <motion.a
-              href="https://twitter.com"
+              href="mailto:odasyss@gmail.com"
               target={"_blank"}
               className="w-6 mx-3 sm:mx-1"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
             >
-              <DribbbleIcon />
+            
             </motion.a>
 
             <button
