@@ -4,7 +4,7 @@ const { fontFamily } = require('tailwindcss/defaultTheme')
 
 
 
-module.exports = {
+module.exports ={ 
     content: [ 
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -74,5 +74,5 @@ module.exports = {
       // => @media (max-width: 479px) { ... }
   },
   },
-  plugins: [],
+  plugins: [],  
 }

@@ -1,6 +1,9 @@
 import Link from "next/link";
 import React from "react";
 import Layout from "./Layout";
+import Image from "next/image";
+import naruto from "../../public/images/profile/naruto.gif";
+
 
 const Footer = () => {
   return (
@@ -30,9 +33,11 @@ const Footer = () => {
           className="underline
             underline-offset-2
             "
-        >
-          Say hello
+        > 
+          <Image src={naruto} alt="leaf" width={50} height={50} />
         </Link>
+
+
       </Layout>
     </footer>
   );

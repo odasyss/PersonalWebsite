@@ -2,7 +2,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import React, { useState } from "react";
 import {
-  TwitterIcon,
+  // TwitterIcon,
   GithubIcon,
   LinkedInIcon,
   GmailIcon,
@@ -104,11 +104,11 @@ const NavBar = () => {
           <CustomLink href="/" title="Home" className="mr-4" />
           <CustomLink href="/about" title="About" className="mx-4" />
           <CustomLink href="/projects" title="Projects" className="mx-4" />
-          <CustomLink href="/guestbook" title="GuestBook" className="ml-4" />
+          {/* <CustomLink href="/guestbook" title="GuestBook" className="ml-4" /> */}
         </nav>
 
         <nav className="flex items-center justify-center flex-wrap">
-          <motion.a
+          {/* <motion.a
             href="https://twitter.com"
             target={"_blank"}
             whileHover={{ y: -2 }}
@@ -116,7 +116,7 @@ const NavBar = () => {
             className="w-6 mr-3"
           >
             <TwitterIcon />
-          </motion.a>
+          </motion.a> */}
           <motion.a
             href="https://github.com/odasyss"
             target={"_blank"}
@@ -196,24 +196,24 @@ const NavBar = () => {
               className=""
               toggle={handleClick}
             />
-            <CustomMobileLink
-              href="/guedtbook"
+            {/* <CustomMobileLink
+              href="/guestbook"
               title="GuestBook"
               className=""
               toggle={handleClick}
-            />
+            /> */}
           </nav>
 
           <nav className="flex items-center justify-center flex-wrap mt-2">
-            <motion.a
+            {/* <motion.a
               href="https://twitter.com"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
               className="w-6 mr-3 sm:mx-1"
             >
-              <TwitterIcon />
-            </motion.a>
+              <TwitterIcon /> */}
+            {/* </motion.a> */}
             <motion.a
               href="https://github.com/odasyss"
               target={"_blank"}

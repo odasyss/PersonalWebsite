@@ -7,17 +7,15 @@ import Image from 'next/image'
 import Link from 'next/link';
 import profilePic from "../../public/images/profile/dynaite.png";
 
-
+//built with nextjs
 export default function Home() {
   return (
     <>
       <Head>
-      <title>Awesome Portfolio Built with Nextjs</title>
+      <title>Portfolio</title>
         <meta
           name="description"
-          content="Explore CodeBucks's Next.js developer portfolio and 
-        discover the latest webapp projects and software engineering articles. 
-        Showcase your skills as a full-stack developer and software engineer."
+          content="Showcasing my skills as a full-stack developer and software engineer."
         />
       </Head>
       <TransitionEffect />
@@ -38,7 +36,7 @@ export default function Home() {
                 '/>
                 <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>
                 As a skilled full-stack developer, I am dedicated to turning ideas into innovative web applications. 
-Explore my latest projects and articles, showcasing my expertise in React.js and web development.
+Explore my latest projects, showcasing my expertise in web development.
                 </p>
                 <div className='flex items-center self-start mt-2 lg:self-center'>
                   <Link href="/dummy.pdf" target={"_blank"}//add reusme link here
@@ -49,7 +47,7 @@ Explore my latest projects and articles, showcasing my expertise in React.js and
                   dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light
                   hover:dark:border-light md:p-2 md:px-4 md:text-base
                   "
-                  download={true}
+                  // download={true} //optional
                   >Resume <LinkArrow className={"w-6 ml-1"}/>
                   
                   </Link>

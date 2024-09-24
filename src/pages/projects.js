@@ -7,7 +7,7 @@ import Link from "next/link";
 import React from "react";
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
 import project2 from "../../public/images/projects/Star-Wars.png";
-import project3 from "../../public/images/projects/fashion-studio-website.jpg";
+import project3 from "../../public/images/projects/taskmanager.jpg";
 import project4 from "../../public/images/projects/portfolio-cover-image.jpg";
 import project5 from "../../public/images/projects/agency-website-cover-image.jpg";
 import project6 from "../../public/images/projects/devdreaming.jpg";
@@ -147,8 +147,7 @@ const projects = () => {
         <title>Modern Portfolio Built with Nextjs | Projects Page</title>
         <meta
           name="description"
-          content="Discover the latest webapp projects created by CodeBucks, a Next.js developer with 
-        expertise in React.js and full-stack development. Browse software engineering articles and tutorials for tips on creating your own portfolio."
+          content="Showcasing my skills as a full-stack developer and software engineer."
         />
       </Head>
       <TransitionEffect />
@@ -167,7 +166,7 @@ const projects = () => {
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your local currency."
                 img={project1}
                 link="https://devdreaming.com/videos/build-crypto-screener-app-with-react-tailwind-css"
-                github="https://github.com/codebucks27/CryptoBucks-Final-Code"
+                github=""
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
@@ -185,7 +184,7 @@ const projects = () => {
                 title="Task Manager App,
                       -Based on Jira"
                 img={project3}
-                link="https://github.com/odasyss/"//vercel link
+                link="https://taskmanager-579t.onrender.com"//vercel link
                 github="https://github.com/odasyss/taskManager"
               />
             </div>
@@ -207,7 +206,7 @@ const projects = () => {
                 img={project5}
                 title="Agency Website Template"
                 link="https://devdreaming.com/videos/build-stunning-fashion-studio-website-with-reactJS-locomotive-scroll-gsap"
-                github="https://github.com/codebucks27/wibe-studio"
+                github=""
               />
             </div> */}
             {/* <div className="col-span-6 sm:col-span-12">
@@ -216,7 +215,7 @@ const projects = () => {
                 img={project6}
                 title="DevDreaming"
                 link="https://devdreaming.com"
-                github="https://github.com/codebucks27"
+                github=""
               />
             </div> */}
           </div>

@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .hover-pop {
+    @apply inline-block transition-transform duration-300 ease-in-out; /* Applies transition and scaling */
+  }
+  .hover-pop:hover {
+    transform: scale(1.1); /* Scaling effect on hover */
+    background-color: rgba(0, 0, 0, 0.1); /* Optional: adds a subtle background color */
+    border-radius: 0.25rem; /* Optional: smooth edges when background color changes */
+  }
+}
